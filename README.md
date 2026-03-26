@@ -1,5 +1,7 @@
 # Ghostty AMOLED Theme
 
+![Ghostty AMOLED Theme Preview](./resources/example.jpg)
+
 A clean **AMOLED-friendly** Ghostty theme with Dracula-inspired colors, tuned for long coding sessions.
 
 <p align="left">
