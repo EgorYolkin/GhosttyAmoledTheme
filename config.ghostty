@@ -1,0 +1,54 @@
+# Шрифт (Nerd Font для ligatures и иконок)
+font-family = "JetBrainsMono Nerd Font Mono"
+font-size = 15
+font-feature = calt,liga
+
+# Тема (просто Dracula, НЕ dark:Dracula)
+theme = Dracula
+
+# Кастомные AMOLED цвета
+background = 0a0a0a
+foreground = f8f8f2
+selection-background = 44475a
+selection-foreground = f8f8f2
+cursor-color = 50fa7b
+cursor-style = block
+cursor-style-blink = true
+
+# Палитра 16 цветов (Dracula AMOLED)
+palette = 0=0a0a0a
+palette = 1=ff5555
+palette = 2=50fa7b
+palette = 3=f1fa8c
+palette = 4=bd93f9
+palette = 5=ff79c6
+palette = 6=8be9fd
+palette = 7=f8f8f2
+palette = 8=6272a4
+palette = 9=ff6e6e
+palette = 10=69ff94
+palette = 11=ffffa5
+palette = 12=d6acff
+palette = 13=ff92df
+palette = 14=a4ffff
+palette = 15=ffffff
+
+# macOS настройки (только ВАЛИДНЫЕ)
+macos-titlebar-style = hidden
+background-opacity = 0.95
+window-padding-x = 12
+window-padding-y = 12
+
+# DevOps оптимизации
+copy-on-select = true
+mouse-hide-while-typing = true
+shell-integration-features = no-cursor
+resize-overlay = never
+window-save-state = always
+
+# Custom keybinds
+keybind = cmd+n=new_window
+keybind = cmd+t=new_tab
+keybind = cmd+shift+t=new_tab
+keybind = cmd+shift+c=text:<context>\n\n</context>\n\n<task>|</task>
+
